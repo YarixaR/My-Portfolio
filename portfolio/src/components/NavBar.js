@@ -10,16 +10,18 @@ function NavBar() {
     }
 
     return(
-        <div className='q-full h-[90px] bg-black'>
+        <div className='q-full h-[90px] '>
             <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
             <div>
-                <h1 className='text-white'>Welcome to my portfolio!</h1>
+                <h1 className='text-black'>Yarixa Rodriguez</h1>
+                <h3 className='text-black'>Software Engineer / Full-Stack</h3>
             </div>
             <div className='hidden md:flex'>
-                <ul className='flex text-white items-center'>
+                <ul className='flex text-black items-center'>
                     <li>About Me</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
+                    <a href='#skills'>Skills</a>
+                    <a href='#projects'>Projects</a>
+                    <li>Resume</li>
                     <li>Contact Me</li>
                 </ul>
             </div>
@@ -27,7 +29,7 @@ function NavBar() {
             {/* Hamburger menu */}
 
             <div onClick={handleNav} className='block md:hidden'>
-                {nav ? <AiOutlineClose size={30} className='text-white' /> : <AiOutlineMenu size={30} className='text-white' />}
+                {nav ? <AiOutlineClose size={30} className='text-black' /> : <AiOutlineMenu size={30} className='text-black' />}
             </div>
 
             {/* Mobile Menu */}
@@ -37,6 +39,7 @@ function NavBar() {
                     <li>About Me</li>
                     <li>Skills</li>
                     <li>Projects</li>
+                    <li>Resume</li>
                     <li>Contact Me</li>
                 </ul>
             </div>

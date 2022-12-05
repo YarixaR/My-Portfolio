@@ -2,8 +2,10 @@ import React from "react"
 
 function Projects() {
     return(
-        <div>
-            <h2>My Academic Projects</h2>
+        <div className="text-center">
+            <section id='projects'>
+                <h1>Academic Projects</h1>
+            </section>
         </div>
     )
 }
