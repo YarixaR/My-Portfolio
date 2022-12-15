@@ -4,8 +4,8 @@ import { FaLinkedin } from 'react-icons/fa'
 
 function Contact() {
     return(
-        <div className="bg-orange-50 text-center">
-            <section>
+        <div className="bg-orange-50 text-center pt-10 pb-10">
+            <section id='contact'>
                 <h1>Contact Me</h1>
                 <p>
                     <a href="mailto:yarixarodriguez94@gmail.com">Yarixarodriguez94@gmail.com</a>

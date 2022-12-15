@@ -18,11 +18,11 @@ function NavBar() {
             </div>
             <div className='hidden md:flex'>
                 <ul className='flex text-black items-center'>
-                    <li>About Me</li>
+                    <a href='about'>About Me</a>
                     <a href='#skills'>Skills</a>
                     <a href='#projects'>Projects</a>
-                    <li>Resume</li>
-                    <li>Contact Me</li>
+                    <a href='#resume'>Resume</a>
+                    <a href='#contact'>Contact Me</a>
                 </ul>
             </div>
 
@@ -36,11 +36,11 @@ function NavBar() {
 
             <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-o flex justify-center text-center' : 'absolute left-[-100%]'}>
                 <ul>
-                    <li>About Me</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
-                    <li>Contact Me</li>
+                    <li><a href='about'>About Me</a></li>
+                    <li><a href='#skills'>Skills</a></li>
+                    <li><a href='#projects'>Projects</a></li>
+                    <li><a href='#resume'>Resume</a></li>
+                    <li><a href='#contact'>Contact Me</a></li>
                 </ul>
             </div>
             </div>
