@@ -13,15 +13,15 @@ function NavBar() {
         <div className='q-full h-[90px] '>
             <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
             <div>
-                <h1 className='text-black'>Yarixa Rodriguez</h1>
-                <h3 className='text-black'>Software Engineer / Full-Stack</h3>
+                <h1>Yarixa Rodriguez</h1>
+                <h3>Software Engineer / Full-Stack</h3>
             </div>
             <div className='hidden md:flex'>
-                <ul className='flex text-black items-center'>
+                <ul className='flex items-center'>
                     <a href='about'>About Me</a>
                     <a href='#skills'>Skills</a>
                     <a href='#projects'>Projects</a>
-                    <a className='duration-800' href='#resume'>Resume</a>
+                    <a href='#resume'>Resume</a>
                     <a href='#contact'>Contact Me</a>
                 </ul>
             </div>
@@ -29,17 +29,17 @@ function NavBar() {
             {/* Hamburger menu */}
 
             <div onClick={handleNav} className='block md:hidden'>
-                {nav ? <AiOutlineClose size={30} className='text-black' /> : <AiOutlineMenu size={30} className='text-black' />}
+                {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
 
             {/* Mobile Menu */}
 
-            <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-o flex justify-center text-center' : 'absolute left-[-100%]'}>
+            <div className={nav ? 'w-full text-white absolute top-[90px] left-o flex justify-center text-center' : 'absolute left-[-100%]'}>
                 <ul>
                     <li><a href='about'>About Me</a></li>
                     <li><a href='#skills'>Skills</a></li>
                     <li><a href='#projects'>Projects</a></li>
-                    <li><a className='duration-500' href='#resume'>Resume</a></li>
+                    <li><a href='#resume'>Resume</a></li>
                     <li><a href='#contact'>Contact Me</a></li>
                 </ul>
             </div>

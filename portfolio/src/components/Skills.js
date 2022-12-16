@@ -5,13 +5,13 @@ function Skills() {
     const skills  = [ 'HTML', 'CSS', 'JavaScript', 'React', 'Ruby', 'Ruby on Rails', 'SQL', 'PostgreSQL', 'Material UI', 'Tailwind CSS', 'APIs'  ]
 
     const listSkills = skills.map (( skill => 
-        <li className="shadow-xl rounded-lg m-1">{ skill }</li>
+        <li>{ skill }</li>
      ))
 
      const tools = [ 'Figma', 'Postman', 'VSCODE', 'Chrome Devtools' ]
 
      const listTools = tools.map (( tool => 
-        <li className="shadow-xl rounded-lg m-1">{ tool }</li> 
+        <li >{ tool }</li> 
         ))
     return(
         <div className="text-center px-40 ">
@@ -30,4 +30,6 @@ function Skills() {
 }
 export default Skills;
 
+
+// className="shadow-xl rounded-lg m-1"
 
