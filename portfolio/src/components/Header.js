@@ -34,34 +34,3 @@ export default Header;
 
 
 
-// <div className=" md:order-2 flex justify-ceneter basis-3/5 z-10 mt-16 md:mt-32">
-// <img className="inline-block h-80 w-60 rounded-full overflow-hidden ring-2 ring-white" src={image} alt='image'/>
-// </div>
-
-
-{/* <div className=" text-center container mx-auto py-20 flex gap-20 ">
-<section id="about">
-    <div>
-        <img className="inline-block h-80 w-60 rounded-full overflow-hidden ring-2 ring-white" src={image}/>
-    </div>
-
-<h1 >About Yarixa</h1>
-<p >Hi! I'm Yari, and I'd love to share a few things to get to know me a little more. I have a passion for animals, cooking, drinking matcha and coffee, playing video games, and traveling. This year, I've decided to embark on a new journey and strive to make a career change. I've dedicated numerous years healing and nourishing animals to facilitate people's lives but now I'm excited to start focusing on my creative side by ideating solutions, sketching them out, and bringing them to life.  
-</p>
-</section>
-</div> */}
-
-// <motion.div
-//                             initial = "hidden"
-//                             whileInView = "visible"
-//                             viewport={{ once: true, amount: 0.5 }}
-//                             transition = {{ duration: 0.5 }}
-//                             variants = {{ 
-//                                 hidden: { opacity: 0, x: -50 },
-//                                 visible: { opacity: 1, x: 0 }
-//                              }}
-//                         >
-//                             <p className="text-6xl font-playfair z-10 text-center md:text-start">
-//                                 hello
-//                             </p>
-//                         </motion.div>

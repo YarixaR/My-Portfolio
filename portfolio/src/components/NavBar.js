@@ -53,4 +53,3 @@ export default NavBar;
 
 
 
-{/* <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'}> */}
