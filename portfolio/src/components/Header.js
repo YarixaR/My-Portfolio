@@ -1,13 +1,17 @@
 import React from "react"
 import image from '../assets/image.jpg'
+import wallpaper from '../assets/wallpaper.webp'
 
 function Header() {
     return(
-        <div className=" text-center bg-pink-50 pb-10 pt-10">
+        <div className=" text-center container mx-auto py-20 flex gap-20 ">
             <section id="about">
-            <img className="inline-block h-35 w-40 rounded-lg ring-2 ring-white" src={image}/>
+                <div>
+                    <img className="inline-block h-80 w-60 rounded-full overflow-hidden ring-2 ring-white" src={image}/>
+                </div>
+            
             <h1 >About Yarixa</h1>
-            <p>Hi! I'm Yari, and I'd love to share a few things to get to know me a little more. I have a passion for animals, cooking, drinking matcha and coffee, playing video games, and traveling. This year, I've decided to embark on a new journey and strive to make a career change. I've dedicated numerous years healing and nourishing animals to facilitate people's lives but now I'm excited to start focusing on my creative side by ideating solutions, sketching them out, and bringing them to life.  
+            <p >Hi! I'm Yari, and I'd love to share a few things to get to know me a little more. I have a passion for animals, cooking, drinking matcha and coffee, playing video games, and traveling. This year, I've decided to embark on a new journey and strive to make a career change. I've dedicated numerous years healing and nourishing animals to facilitate people's lives but now I'm excited to start focusing on my creative side by ideating solutions, sketching them out, and bringing them to life.  
             </p>
             </section>
         </div>

@@ -1,6 +1,6 @@
 import React from "react"
 import project from '../assets/project2.mov'
-import projects from '../assets/project3.mov'
+import projects from '../assets/project5.mov'
 import otherProject from '../assets/project4.mov'
 
 function Projects() {
@@ -24,7 +24,7 @@ function Projects() {
         ))
 
     return(
-        <div className="text-center bg-cyan-50 pb-10 pt-10">
+        <div className="text-center  bg-cyan-50 pb-10 pt-10">
             <section id='projects'>
                 <h1 className="text-blue-600 mb-10">Academic Projects</h1>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2 px-1 sm:px-o">

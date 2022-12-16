@@ -5,19 +5,19 @@ function Skills() {
     const skills  = [ 'HTML', 'CSS', 'JavaScript', 'React', 'Ruby', 'Ruby on Rails', 'SQL', 'PostgreSQL', 'Material UI', 'Tailwind CSS', 'APIs'  ]
 
     const listSkills = skills.map (( skill => 
-        <li>{ skill }</li>
+        <li className="shadow-xl rounded-lg m-1">{ skill }</li>
      ))
 
      const tools = [ 'Figma', 'Postman', 'VSCODE', 'Chrome Devtools' ]
 
      const listTools = tools.map (( tool => 
-        <li>{ tool }</li> 
+        <li className="shadow-xl rounded-lg m-1">{ tool }</li> 
         ))
     return(
-        <div className="text-center px-40">
+        <div className="text-center px-40 ">
             <section id='skills'>
                 <h1>My Skills</h1>
-                <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-1 px-10 sm:px-o">
+                <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-1 px-10 sm:px-o ">
                     {listSkills}
                 </ul>
                 <h1>Tools</h1>
@@ -29,3 +29,5 @@ function Skills() {
     )
 }
 export default Skills;
+
+
