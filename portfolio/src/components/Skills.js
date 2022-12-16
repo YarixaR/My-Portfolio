@@ -14,10 +14,10 @@ function Skills() {
         <li >{ tool }</li> 
         ))
     return(
-        <div className="text-center px-40 ">
+        <div className="text-center  ">
             <section id='skills'>
                 <h1>My Skills</h1>
-                <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-1 px-10 sm:px-o ">
+                <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-10 sm:px-o mb-10 ">
                     {listSkills}
                 </ul>
                 <h1>Tools</h1>
