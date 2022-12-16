@@ -2,29 +2,30 @@ import React from "react"
 import project from '../assets/project2.mov'
 import projects from '../assets/project5.mov'
 import otherProject from '../assets/project4.mov'
+import { FaGithub } from 'react-icons/fa'
 
 function Projects() {
 
     const project1 = [ 'Rapid Api', 'Ruby on Rails', 'React', 'React Router', 'Postman', 'Figma', 'Material UI' ]
 
     const listFirst = project1.map((p1 => 
-        <p><span className="text-blue-600">✓</span>{ p1 }</p>
+        <p><span>✓</span>{ p1 }</p>
         ))
 
     const project2 = [ 'Ruby on Rails', 'React', 'Postman', 'Figma', 'Tailwind CSS' ]
 
     const listSecond = project2.map((p2 => 
-        <p><span className="text-blue-600">✓</span>{ p2 }</p>
+        <p><span>✓</span>{ p2 }</p>
         ))
 
     const project3 = [ 'Ruby', 'React', 'SQLlite', 'Postman', 'Figma', 'Material UI' ]
 
     const listThird = project3.map((p3 => 
-        <p><span className="text-blue-600">✓</span>{ p3 }</p>
+        <p><span>✓</span>{ p3 }</p>
         ))
 
     return(
-        <div className="text-center  bg-cyan-50 pb-10 pt-10">
+        <div className="text-center pb-10 pt-10">
             <section id='projects'>
                 <h1 className="text-blue-600 mb-10">Academic Projects</h1>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2 px-1 sm:px-o">
@@ -36,7 +37,7 @@ function Projects() {
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-10 sm:px-o mb-10 ">
                             { listFirst }
                         </div>
-                        <a className=" rounded-full bg-cyan-400 hover:text-white" href='https://github.com/YarixaR/Go-Fitness'>Code</a>
+                        <a className="flex justify-center " href='https://github.com/YarixaR/Go-Fitness'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/></a>
                     </div>
                     <video src={projects} onMouseOver={ e => e.target.play() } onMouseOut={ e => e.target.pause() } className="shadow-md shadow-gray-600 rounded-lg"/>
                     <div className="mt-10">
@@ -47,7 +48,7 @@ function Projects() {
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gapDEMO-2 px-10 sm:px-o mb-10">
                         { listSecond }
                         </div>
-                        <a className=" rounded-full bg-cyan-400 hover:text-white " href='https://github.com/YarixaR/NetFl'>Code</a>
+                        <a className="flex justify-center" href='https://github.com/YarixaR/NetFl'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/></a>
                     </div>
                         <video src={otherProject} onMouseOver={ e => e.target.play() } onMouseOut={ e => e.target.pause() } className="shadow-md shadow-gray-600 rounded-lg"/>
                     <div className="mt-10">
@@ -58,8 +59,11 @@ function Projects() {
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-10 sm:px-o mb-10">
                         { listThird }
                         </div>
-                        <a className=" rounded-full bg-cyan-400 hover:text-white " href='https://github.com/YarixaR/phase-3-sinatra-react-project'>Code-Server</a>
-                        <a className=" rounded-full bg-cyan-400 hover:text-white " href='https://github.com/YarixaR/task-master'>Code-Client</a>
+                        <div className="flex justify-center">
+                            <a href='https://github.com/YarixaR/phase-3-sinatra-react-project'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/>server</a>
+                            <a href='https://github.com/YarixaR/task-master'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/>client</a>
+                        </div>
+                        
                     </div>
                 </div>
             </section>

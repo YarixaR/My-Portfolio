@@ -6,8 +6,11 @@ import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
+import useMediaQuery from "./hooks/useMediaQuery"
 
 function App() {
+
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px")
   return (
   <div>
     <NavBar />
