@@ -34,7 +34,7 @@ function NavBar() {
 
             {/* Mobile Menu */}
 
-            <div className={nav ? 'w-full text-white absolute top-[90px] left-o flex justify-center text-center' : 'absolute left-[-100%]'}>
+            <div className={nav ? 'w-full bg-black text-white absolute z-[100] top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'}>
                 <ul>
                     <li><a href='about'>About Me</a></li>
                     <li><a href='#skills'>Skills</a></li>
@@ -50,3 +50,7 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
+
+{/* <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'}> */}
