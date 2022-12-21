@@ -13,7 +13,7 @@ function Contact() {
                 <p>
                     <a href="mailto:yarixarodriguez94@gmail.com">Yarixarodriguez94@gmail.com</a>
                 </p>
-                <p className="flex justify-center text-2xl ">
+                <p className="flex justify-center text-2xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
                     <a href="https://www.linkedin.com/in/yarixa-rodriguez/"><FaLinkedin/></a>
                 </p>
 

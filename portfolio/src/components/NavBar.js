@@ -18,11 +18,11 @@ function NavBar() {
             </div>
             <div className='hidden md:flex'>
                 <ul className='flex items-center'>
-                    <a href='about'>About Me</a>
-                    <a href='#skills'>Skills</a>
-                    <a href='#projects'>Projects</a>
-                    <a href='#resume'>Resume</a>
-                    <a href='#contact'>Contact Me</a>
+                    <a href='about' className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>About Me</a>
+                    <a href='#skills' className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Skills</a>
+                    <a href='#projects' className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Projects</a>
+                    <a href='#resume' className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Resume</a>
+                    <a href='#contact' className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Contact Me</a>
                 </ul>
             </div>
 

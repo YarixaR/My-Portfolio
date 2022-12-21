@@ -37,7 +37,7 @@ function Projects() {
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-10 sm:px-o mb-10 ">
                             { listFirst }
                         </div>
-                        <a className="flex justify-center " href='https://github.com/YarixaR/Go-Fitness'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/></a>
+                        <a className="flex justify-center transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110" href='https://github.com/YarixaR/Go-Fitness'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/></a>
                     </div>
                     <video src={projects} onMouseOver={ e => e.target.play() } onMouseOut={ e => e.target.pause() } className="shadow-md shadow-gray-600 rounded-lg"/>
                     <div className="mt-10">
@@ -48,7 +48,7 @@ function Projects() {
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gapDEMO-2 px-10 sm:px-o mb-10">
                         { listSecond }
                         </div>
-                        <a className="flex justify-center" href='https://github.com/YarixaR/NetFl'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/></a>
+                        <a className="flex justify-center transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110" href='https://github.com/YarixaR/NetFl'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/></a>
                     </div>
                         <video src={otherProject} onMouseOver={ e => e.target.play() } onMouseOut={ e => e.target.pause() } className="shadow-md shadow-gray-600 rounded-lg"/>
                     <div className="mt-10">
@@ -60,8 +60,8 @@ function Projects() {
                         { listThird }
                         </div>
                         <div className="flex justify-center">
-                            <a href='https://github.com/YarixaR/phase-3-sinatra-react-project'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/>server</a>
-                            <a href='https://github.com/YarixaR/task-master'><FaGithub className="text-cyan-500 text-2xl w-10 h-10"/>client</a>
+                            <a href='https://github.com/YarixaR/phase-3-sinatra-react-project'><FaGithub className="text-cyan-500 text-2xl w-10 h-10 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110"/>server</a>
+                            <a href='https://github.com/YarixaR/task-master'><FaGithub className="text-cyan-500 text-2xl w-10 h-10 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110"/>client</a>
                         </div>
                         
                     </div>
