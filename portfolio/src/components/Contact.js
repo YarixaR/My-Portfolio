@@ -6,7 +6,7 @@ import taro from '../assets/taro.jpg'
 
 function Contact() {
     return(
-        <div className="text-center pt-10 pb-10 flex justify-center ">
+        <div className="text-center pt-10 pb-10 flex justify-center smooth-scroll">
             <section id='contact'>
                 <img src={taro} alt='taro the cat' className="w-40 h-50 ml-12 rounded-full"/>
                 <h1>Contact Me</h1>
