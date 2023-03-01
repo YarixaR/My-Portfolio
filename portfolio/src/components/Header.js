@@ -20,7 +20,7 @@ function Header() {
                         <img className="hover:filter hover:saturate-150 transition duration-500 z-10 w-80 rounded-full max-w-[400px] md:max-w-[600px]" src={image} alt='profile'/>
                     )}
                 </div>
-                    <div className="z-30 basis-2/5 mt-12 md:mt-32 md:ml-10  ">
+                    <div className="z-30 basis-2/5 mt-12 md:mt-10 md:ml-10  ">
                     <h1 >Hi, I'm Yari.</h1>
                         <h2>Last year, I've decided to embark on a new journey and strive to make a career change. I've dedicated numerous years healing and nourishing animals to facilitate their lives but now I'm excited to start focusing on my creative side by ideating solutions, sketching them out, and bringing them to life.</h2>
                         <h2>Check out my<a href={ resume } className="underline decoration-4 decoration-white hover:decoration-cyan-600 transition ease-in-out delay-60">resume</a>.</h2>

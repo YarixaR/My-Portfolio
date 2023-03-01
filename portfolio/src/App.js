@@ -4,7 +4,6 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
 import Skills from './components/Skills';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
   <div className='bg-[url("https://i.pinimg.com/564x/ce/85/7a/ce857aeeedf9046b3a3fdc9241ee05a9.jpg")] bg-cover' >
     <NavBar />
     <Header />
-    {/* <Resume /> */}
     <Skills />
     <Projects />
     <Contact />
@@ -24,3 +22,4 @@ function App() {
 export default App;
 
 // className='bg-gradient-to-tr from-indigo-200 via-orange-100 to-sky-100 '
+// className='bg-[url("https://i.pinimg.com/564x/ce/85/7a/ce857aeeedf9046b3a3fdc9241ee05a9.jpg")] bg-cover'
