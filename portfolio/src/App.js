@@ -10,7 +10,7 @@ import Skills from './components/Skills';
 function App() {
 
   return (
-  <div>
+  <div className='bg-gradient-to-tl from-purple-200 to-sky-200 '>
     <NavBar />
     <Header />
     <Resume />

@@ -12,10 +12,10 @@ function NavBar() {
 
     return(
         <div className='q-full h-[90px] '>
-            <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
+            <div className='w-[1455px] mx-auto px-4 flex justify-between items-center h-full'>
             <div>
                 <h1>Yarixa Rodriguez</h1>
-                <h3>Software Engineer / Full-Stack</h3>
+                <h3>Software Engineer / Front End Focused</h3>
             </div>
             <div className='hidden md:flex'>
                 <ul className='flex items-center'>
