@@ -19,9 +19,9 @@ function NavBar() {
             </div>
             <div className='hidden md:flex sm:flex'>
                 <ul className='flex items-center'>
-                    <Link to='skills' smooth={true} offset={-200} duration={500} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Skills</Link>
-                    <Link to='projects' smooth={true} offset={-10} duration={500} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Projects</Link>
-                    <Link to='contact' smooth={true} offset={-200} duration={500} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110'>Contact Me</Link>
+                    <Link to='skills' smooth={true} offset={-200} duration={500} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 cursor-default'>Skills</Link>
+                    <Link to='projects' smooth={true} offset={-10} duration={500} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 cursor-default'>Projects</Link>
+                    <Link to='contact' smooth={true} offset={-200} duration={500} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 cursor-default'>Contact Me</Link>
                 </ul>
             </div>
 

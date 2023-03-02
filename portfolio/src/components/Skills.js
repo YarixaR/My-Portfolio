@@ -14,7 +14,7 @@ function Skills() {
         <li >{ tool }</li> 
         ))
     return(
-        <div className="text-center mt-40 ">
+        <div className="text-center pt-40 pb-40 pl-10 pr-10">
             <section id='skills'>
                 <h1>My Skills</h1>
                 <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-10 sm:px-o mb-10 ">

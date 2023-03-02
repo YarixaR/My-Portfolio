@@ -25,7 +25,7 @@ function Projects() {
         ))
 
     return(
-        <div className="text-center pb-10 pt-10">
+        <div className="text-center pb-10 pt-20">
             <section id='projects'>
                 <h1 className="text-blue-600">Academic Projects</h1>
                 <br></br>
