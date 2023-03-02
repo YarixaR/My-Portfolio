@@ -3,6 +3,7 @@ import image from '../assets/image.jpg'
 import useMediaQuery from "../hooks/useMediaQuery"
 import resume from '../assets/resume.pdf'
 
+
 function Header() {
 
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");

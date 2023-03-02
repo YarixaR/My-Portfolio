@@ -3,6 +3,7 @@ import project from '../assets/project2.mov'
 import projects from '../assets/project5.mov'
 import otherProject from '../assets/project4.mov'
 import { FaGithub } from 'react-icons/fa'
+import Fade from 'react-reveal/Fade';
 
 function Projects() {
 
@@ -26,6 +27,7 @@ function Projects() {
 
     return(
         <div className="text-center pb-10 pt-20">
+            <Fade bottom>
             <section id='projects'>
                 <h1 className="text-blue-600">Academic Projects</h1>
                 <br></br>
@@ -69,6 +71,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
+           </Fade> 
         </div>
     )
 }

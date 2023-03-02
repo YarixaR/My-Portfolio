@@ -29,13 +29,14 @@ body,
     font-weight: 400;
   }
   h3 {
-    @apply text-2xl font-bold;
+    @apply text-2xl font-semibold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.17em;
+    font-size: 1.2em;
   }
   h4 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-size: 1.0em;
+    font-weight: 200
   }
 
   li {

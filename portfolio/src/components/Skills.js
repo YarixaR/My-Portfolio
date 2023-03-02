@@ -1,4 +1,5 @@
 import React from "react"
+import Fade from 'react-reveal/Fade';
 
 function Skills() {
 
@@ -15,6 +16,7 @@ function Skills() {
         ))
     return(
         <div className="text-center pt-40 pb-40 pl-10 pr-10">
+            <Fade bottom>
             <section id='skills'>
                 <h1>My Skills</h1>
                 <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 px-10 sm:px-o mb-10 ">
@@ -25,6 +27,7 @@ function Skills() {
                     {listTools}
                 </ul>
             </section>
+            </Fade>
         </div>
     )
 }
