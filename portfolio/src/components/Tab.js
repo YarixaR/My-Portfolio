@@ -46,22 +46,7 @@ const Menu = [
 
 function Tab() {
     return(
-        <div className="flex flex-col justify-center items-center">
-            <div className=" bg-indigo-200 flex justify-between items-center space-x-8 rounded-lg px-4 py-2 w-[440px]">
-                {/* Tab List */}
-                {Menu.map(item => (
-                <button>{item.title}</button>
-                ))}
-                {/* Tab Panel */}
-            <div className="bg-white w-[1500px]">
-                {Menu.map(item => (
-                <div>{item.description}</div>
-                ))}
-                 {Menu.map(item => (
-                <div>{item.tools}</div>
-                ))}
-            </div>
-            </div>
+        <div>
         </div>
     )
 }

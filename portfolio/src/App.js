@@ -5,17 +5,15 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Tab from './components/Tab';
 
 function App() {
 
   return (
-  <div className='bg-[url("https://i.pinimg.com/564x/ce/85/7a/ce857aeeedf9046b3a3fdc9241ee05a9.jpg")] bg-cover ' >
+  <div className='bg-[url("https://i.pinimg.com/564x/ce/85/7a/ce857aeeedf9046b3a3fdc9241ee05a9.jpg")] bg-cover' >
     <NavBar />
     <Header />
     <Skills />
-    <Tab />
-    {/* <Projects /> */}
+    <Projects />
     <Contact />
   </div>
   );
