@@ -1,7 +1,7 @@
 import React from "react"
 import image from '../assets/image.jpg'
 import useMediaQuery from "../hooks/useMediaQuery"
-import resume from '../assets/resume.pdf'
+import portfolio from '../assets/portfolio.pdf'
 
 
 function Header() {
@@ -24,7 +24,7 @@ function Header() {
                     <div className="z-30 basis-2/5 mt-12 md:mt-10 md:ml-10  ">
                     <h1 >Hi, I'm Yari.</h1>
                         <h2>Last year, I decided to embark on a new journey and strive to make a career change. I've dedicated numerous years healing and nourishing animals to facilitate their lives but now I'm excited to start focusing on my creative side by ideating solutions, sketching them out, and bringing them to life.</h2>
-                        <h2>Check out my<a href={ resume } className="underline decoration-4 decoration-white hover:decoration-cyan-600 transition ease-in-out delay-60 cursor-default">resume</a>.</h2>
+                        <h2>Check out my<a href={ portfolio } className="underline decoration-4 decoration-white hover:decoration-cyan-600 transition ease-in-out delay-60 cursor-default">resume</a>.</h2>
                         <br></br>
                         <h3>When I'm not working, you can find me:</h3>
                         <h4>
