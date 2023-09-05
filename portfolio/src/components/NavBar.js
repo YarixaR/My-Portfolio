@@ -1,6 +1,7 @@
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { useState } from "react"
 import {Link} from 'react-scroll'
+import name from '../assets/name.png'
 
 function NavBar() {
 
@@ -14,7 +15,7 @@ function NavBar() {
         <div className='md:q-full h-[90px]'>
             <div className=' mx-auto px-4 flex justify-between items-center h-full'>
             <div>
-                <h1 className='flex md:ml-5 '>Yarixa Rodriguez</h1>
+                <img className='flex md:ml-3 pt-5 ' src={name} alt='YR'/>
                 <h3 className='flex md:ml-5 '>Software Engineer / Front End Focused</h3>
             </div>
             <div className='hidden md:flex sm:flex'>
